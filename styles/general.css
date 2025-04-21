@@ -1,0 +1,94 @@
+/*GENERALES*/
+/* Estilos generales */
+html,body,footer,header {
+    font-family: 'Courier New', Courier, monospace;
+    font-stretch: semi-condensed;
+    line-height: 2;
+    margin: 0;
+    padding: 0;
+}
+
+/*Configuracion imagen de Machu Picchu*/
+header {
+    background-image: url('../imagenes/MachuPicchu.jpg');
+    background-size: contain;
+    
+    text-align: center; /*Posicion de texto en la imagen*/
+    padding: 1rem 0rem;
+    position: relative;
+    min-height: 10px;
+}
+
+/*Dimensiones del cuadro principal de informacion*/
+main {
+    padding: 0.5rem;
+    max-width: 1000px;
+    margin: auto;
+}
+
+/*Configuracion del texto final */
+footer {
+    background-image: url('../imagenes/Footer1.jpg'); 
+    position: relative;
+    color: rgb(255, 255, 255);
+    font-size: xx-large;
+    min-height: 100px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+/*Configuracion de la distribucion de la imagen pie-pagina*/
+.letras-footer {
+    position: absolute;
+    width: 60px; /*Tamaño de la imagen*/
+    height: auto;
+    right: 20px; /* Posicionamos a la derecha */
+    bottom: 20px;
+    left: auto; /* Anulamos la posición izquierda anterior */
+}
+
+/* Para no solapar con la bandera */
+footer p {
+    margin: 1.5rem;
+    text-align: center; /* Aseguramos que el texto esté centrado */
+    position: absolute;
+}
+
+/*Configuracion de Letras sobre Machu Picchu*/
+header h1 {
+    position: relative;
+    color: rgb(255, 255, 255);  /*Color de texto del titulo principal de la pagina*/
+    text-shadow: 2px 2px 4px rgb(15, 15, 15); /*Color de sombra de las opciones*/
+    font-size: 3rem;
+    background-color: rgba(216, 20, 39, 0.596);
+    display: inline-block;
+    padding: 1rem 2rem;
+    border-radius: 8px;
+}
+
+/*Configuracion de la distribucion de las opciones Navegación*/
+
+nav ul li {
+    display: inline-table; 
+    margin: 0 40px;
+}
+
+nav a {
+    color: white; /*Color de texto de las opciones*/
+    text-shadow: 3px 3px black; /*Color de sombra de las opciones*/
+    text-decoration: none;
+    font-size: 1.5rem;
+    padding: 0.5rem 1rem;
+    background-color: rgba(216, 20, 39, 0.596); /*Color del marco de las opciones*/
+    border-radius: 10px;
+    transition: all 0.3s ease;
+}
+
+nav a:hover {
+    background-color: rgba(255, 255, 255, 0.596); /*Color cuando te posicionas encima de una opcion de inicio*/
+}
+
+
+
+

@@ -1,0 +1,219 @@
+/* |-------------------------------------------------------------------------------------------------| */
+/*PAGINA 3*/
+.introduccion{
+    background-color: #3b92d477;
+    border: 6px solid #ff0000;;
+    border-radius: 10px;
+    font-size: medium;
+    padding: 1rem;
+    margin-block: 1rem;
+}
+.personajes_historicos{
+    background-color: black;
+    border: 6px solid #ffffff;
+    border-radius: 10px;
+    color: #ffff;
+    padding: 0rem 0.5rem;
+    margin: 1rem;
+    text-align: center;
+}
+
+.cuadro_de_texto{
+    display: flex;
+}
+.cuadrado{
+    flex: 1;
+    background-color: #3b92d477;
+    border-radius: 8px;
+    border: 6px solid #ff0000;
+    padding: 0rem 0.5rem;
+    margin: 10px;
+    align-items: center;
+    justify-content: center;
+}
+.titulo_personaje {
+    background-color: #000000;
+    border: 6px solid #ffffff;
+    border-radius: 10px;
+    color: #ffffff;
+    text-align: center;
+}
+
+
+/* |----------------------------------------------------------------------------------------------| */
+/*PRECURSORES*/
+.precursores{
+    text-align: center;
+    background-color: rgb(0, 0, 0);
+    color: #ffffff;
+    border-radius: 10px;
+    border: 6px solid #ffffff;
+}
+.intro_precursor{
+    font-size: medium;
+    margin: 1rem;
+}
+
+/*TUPAC AMARU II*/
+.tupac_amaru{
+    background-color: #ccc8c8b0;
+    border-radius: 10px;
+    border:6px solid #ffffff;
+    padding: 0.3rem 1rem;
+    margin: 0.5rem;
+}
+.tupac_amaru img {
+    display: block;
+    margin: 1rem auto 1rem auto;
+    width: 300px;
+    border-radius: 10px;
+}  
+
+/*MICAELA BASTIDAS*/
+.micaela_bastidas{
+    background-color: #ccc8c8b0;
+    border-radius: 10px;
+    border:6px solid #ffffff;
+    padding: 0.3rem 1rem;
+    margin: 0.5rem;
+}
+.micaela_bastidas img{
+    display: block;
+    margin: 1rem auto 1rem auto;
+    width: 300px;
+    border-radius: 10px;
+}
+
+/*HIPOLITO UNANUE*/
+.hipolito_unanue{
+    background-color: #ccc8c8b0;
+    border-radius: 10px;
+    border:6px solid #ffffff;
+    padding: 0.3rem 1rem;
+    margin: 0.5rem;
+}
+.hipolito_unanue img {
+    display: block;
+    margin: 1rem auto 1rem auto;
+    width: 300px;
+    border-radius: 10px;
+}
+
+/*MARIANO MELGAR*/
+.mariano_melgar{
+    background-color: #ccc8c8b0;
+    border-radius: 10px;
+    border:6px solid #ffffff;
+    padding: 0.3rem 1rem;
+    margin: 0.5rem;
+}
+.mariano_melgar img {
+    display: block;
+    margin: 1rem auto 1rem auto;
+    width: 300px;
+    border-radius: 10px;
+}
+
+/*JOSE DE LA RIVA AGUERO*/
+.jose_riva{
+    background-color: #ccc8c8b0;
+    border-radius: 10px;
+    border:6px solid #ffffff;
+    padding: 0.3rem 1rem;
+    margin: 0.5rem;
+}
+.jose_riva img {
+    display: block;
+    margin: 1rem auto 1rem auto;
+    width: 300px;
+    border-radius: 10px;
+}
+
+/* |-----------------------------------------------------------------------------| */
+/*PROCERES*/
+.proceres{
+    text-align: center;
+    background-color: black;
+    color: white;
+    border-radius: 10px;
+    border: 6px solid #ffffff;
+}
+.intro_procer{
+    font-size: medium;
+    margin: 1rem;
+}
+
+/*JOSE DE SAN MARTIN*/
+.jose_san_martin{
+    background-color: #ccc8c8b0;
+    border-radius: 10px;
+    border:6px solid #ffffff;
+    padding: 0.3rem 1rem;
+    margin: 0.5rem;
+}
+.jose_san_martin img {
+    display: block;
+    margin: 1rem auto 1rem auto;
+    width: 300px;
+    border-radius: 10px;
+}
+
+/*SIMON BOLIVAR*/
+.simon_bolivar{
+    background-color: #ccc8c8b0;
+    border-radius: 10px;
+    border:6px solid #ffffff;
+    padding: 0.3rem 1rem;
+    margin: 0.5rem;
+}
+.simon_bolivar img {
+    display: block;
+    margin: 1rem auto 1rem auto;
+    width: 300px;
+    border-radius: 10px;
+}
+
+/*JOSE DE LA MAR*/
+.jose_de_mar{
+    background-color: #ccc8c8b0;
+    border-radius: 10px;
+    border:6px solid #ffffff;
+    padding: 0.3rem 1rem;
+    margin: 0.5rem;
+}
+.jose_de_mar img {
+    display: block;
+    margin: 1rem auto 1rem auto;
+    width: 300px;
+    border-radius: 10px;
+}
+
+/*MARIA PARADO*/
+.maria_parado{
+    background-color: #ccc8c8b0;
+    border-radius: 10px;
+    border:6px solid #ffffff;
+    padding: 0.3rem 1rem;
+    margin: 0.5rem;
+}
+.maria_parado img {
+    display: block;
+    margin: 1rem auto 1rem auto;
+    width: 300px;
+    border-radius: 10px;
+}
+
+/*JOSE OLAYA*/
+.jose_olaya{
+    background-color: #ccc8c8b0;
+    border-radius: 10px;
+    border:6px solid #ffffff;
+    padding: 0.3rem 1rem;
+    margin: 0.5rem;
+}
+.jose_olaya img {
+    display: block;
+    margin: 1rem auto 1rem auto;
+    width: 300px;
+    border-radius: 10px;
+}

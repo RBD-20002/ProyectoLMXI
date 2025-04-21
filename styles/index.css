@@ -1,0 +1,43 @@
+.opciones {
+    text-align: center;
+}
+.opcion {
+    background-color: #ff000000;
+    border: 1px solid #fb0000;
+    border-radius: 5px;
+    position: relative;
+    font: message-box;
+}
+
+.etapas {
+    background-color: #4699d9ab;
+    border: 6px solid rgb(255, 0, 0);
+    border-radius: 10px;
+    margin: 2.3rem;
+    padding: 0.7rem;
+}
+.titulo{
+    position: center;
+    background-color: black;
+    border:6px solid #ffff;
+    border-radius: 10px;
+    color:#ffff;
+    text-align: center;
+}
+.informacion {
+    border-radius: 10px;
+    border-left: 6px solid  rgb(255, 0, 0);
+    font-size: large;
+    background-color: #ccc8c8ec;
+    margin: 1.5rem;
+    padding: 0.5rem;
+}
+.imagenes{
+    display: flex;
+}
+.imagen{
+    flex: 1;
+    margin: 10px;
+    width: 4px;
+    border-radius: 10px;
+}
