@@ -10,7 +10,7 @@ html,body,footer,header {
 
 /*Configuracion imagen de Machu Picchu*/
 header {
-    background-image: url('../imagenes/MachuPicchu.jpg');
+    background-image: url('../imagenes/MachuPichu.jpg');
     background-size: contain;
     
     text-align: center; /*Posicion de texto en la imagen*/
