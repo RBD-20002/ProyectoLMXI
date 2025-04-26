@@ -57,38 +57,38 @@ footer p {
 
 /*Configuracion de Letras sobre Machu Picchu*/
 header h1 {
-    position: relative;
+    background-color: rgba(216, 20, 39, 0.596);
     color: rgb(255, 255, 255);  /*Color de texto del titulo principal de la pagina*/
     text-shadow: 2px 2px 4px rgb(15, 15, 15); /*Color de sombra de las opciones*/
-    font-size: 3rem;
-    background-color: rgba(216, 20, 39, 0.596);
+    border: 2px solid #ffff;
+    border-radius: 10px;
+    font-size: 2rem;
+    position: relative;
     display: inline-block;
     padding: 1rem 2rem;
-    border-radius: 8px;
 }
 
 /*Configuracion de la distribucion de las opciones Navegación*/
+nav a {
+    background-color: rgba(216, 20, 39, 0.596);
+    text-shadow: 2px 2px 4px rgb(15, 15, 15); /*Color de sombra de las opciones*/
+    border: 2px solid #faf7f7;
+    font-size: 1.5rem;
+    color: #fffbfb;
+    margin: 0.5rem;
+    text-decoration: none;
+    padding: 0.5rem;
+    border-radius: 10px;
+    transition: transform 0.3s ease, background-color 0.3s ease;
+    display: inline-block;
+}
 
 nav ul li {
     display: inline-table; 
     margin: 0 40px;
 }
 
-nav a {
-    color: white; /*Color de texto de las opciones*/
-    text-shadow: 3px 3px black; /*Color de sombra de las opciones*/
-    text-decoration: none;
-    font-size: 1.5rem;
-    padding: 0.5rem 1rem;
-    background-color: rgba(216, 20, 39, 0.596); /*Color del marco de las opciones*/
-    border-radius: 10px;
-    transition: all 0.3s ease;
-}
-
 nav a:hover {
-    background-color: rgba(255, 255, 255, 0.596); /*Color cuando te posicionas encima de una opcion de inicio*/
+    background-color: rgba(255, 255, 255, 0.596);  /*Color cuando te posicionas encima de una opcion de inicio*/
+    transform: scale(1.10);
 }
-
-
-
-
