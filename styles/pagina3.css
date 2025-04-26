@@ -9,6 +9,7 @@
 }
 .tipos{
     text-align: center;
+    font-size: x-large;
     background-color: rgb(0, 0, 0);
     color: #ffffff;
     border-radius: 10px;
@@ -30,16 +31,42 @@ details {
     border: 4px solid rgb(0, 0, 0);
     border-radius: 10px;
     color: #ffffff;
-    margin: 0.5rem;
+    margin: 1rem;
 }
 
-.cuadro_de_texto {
+summary{
+    font-size: xx-large;
+}
+.interior{
+    font-size: xx-large;
+    color: #000000;
+}
+
+.cuadro_de_texto{
     font-size: large;
     border-radius: 8px;
     color: #ffffff;
     padding: 0.3rem 1rem;
     margin: 1rem;
+    border: 4px solid rgb(0, 0, 0);
     background-color: rgba(0, 0, 0, 0.596);
+}
+.info{
+    font-size: x-large;
+    border-radius: 8px;
+    color: #ffffff;
+    padding: 0.3rem 1rem;
+    margin: 1rem;
+    border: 4px solid rgb(0, 0, 0);
+    background-color: rgba(0, 0, 0, 0.596);
+}
+.info1{
+    font-size: x-large;
+    background-color: #6d6b6b;
+    border: #ffffff;
+    border-radius: 10px;
+    padding: 0.5rem;
+    margin: 0.5rem;
 }
 .cuadrado{
     background-color: #3b92d477;
@@ -62,7 +89,7 @@ details {
     border-radius: 10px;
     border:6px solid #ffffff;
     padding: 0.3rem 1rem;
-    margin: 0.5rem;
+    margin: 1rem;
 }
 
 img {
@@ -70,4 +97,24 @@ img {
     margin: 1rem auto 1rem auto;
     width: 300px ;
     border-radius: 10px;
+}
+
+table {
+    width: 90%;
+    font-size: x-large;
+    border-collapse: separate;
+    margin: 5px auto;
+}
+th, td {
+    font-size: x-large;
+    border: 3px solid black;
+    border-radius: 10px;
+    padding: 8px;
+    text-align: center;
+}
+td{
+    background-color: #6d6b6b;
+}
+th {
+    background-color: #c31313;
 }

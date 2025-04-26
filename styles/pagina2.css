@@ -79,8 +79,7 @@ details {
     background-color: antiquewhite;
     border-radius: 10px;
     border: 5px solid black;
-    padding: 0.5rem;
-    /* Elimina padding interno */
+    padding: 0.5rem; /* Elimina padding interno */
     position: relative;
 }
 
