@@ -1,16 +1,18 @@
 /* |---------------------------------------------------------------------------------------------------------| */
 /*PAGINA  2*/
 .cuadro_de_texto {
-    border-radius: 8px;
     color: #ffffff;
     padding: 0.3rem 1rem;
     margin: 1rem;
+    font-size: large;
+    border-radius: 8px;
     background-color: rgba(0, 0, 0, 0.596);
+    border-left: 6px solid #ffffff
 }
 
 .departamento-imagen {
     background-color: #ffffff;
-    border: 6px solid#ff0000;
+    border: 6px solid#d63535a8;
     border-radius: 10px;
     padding: 0rem;
     margin: 0.9rem;
@@ -40,7 +42,7 @@
     background-color: black;
     border: 6px solid #ffffff;
     color: #ffffff;
-    padding: 0.5rem 0.5rem;
+
     border-radius: 10px;
     margin: 1rem;
     text-align: center;
@@ -110,6 +112,7 @@ details {
 .texto_costa {
     display: flex;
     /* Activa Flexbox */
+    font-size: large;
     align-items: center;
     gap: 1rem;
     /* Espacio del texto a imagen */
@@ -212,6 +215,7 @@ details {
     display: flex;
     /* Activa Flexbox */
     align-items: center;
+    font-size: large;
     gap: 1rem;
     /* Espacio del texto a imagen */
     padding: 1rem;
@@ -308,6 +312,7 @@ details {
     display: flex;
     /* Activa Flexbox */
     align-items: center;
+    font-size: large;
     gap: 1rem;
     /* Espacio entre texto e imagen */
     padding: 1rem;

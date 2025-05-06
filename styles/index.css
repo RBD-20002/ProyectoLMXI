@@ -13,7 +13,7 @@
     background-color: #6e786077;
     border: 6px solid rgb(255, 0, 0);
     border-radius: 10px;
-    margin: 2.3rem;
+    margin: 1.5rem 0rem;
     padding: 0.7rem;
 }
 .titulo{
@@ -23,6 +23,7 @@
     border-radius: 10px;
     color:#ffff;
     text-align: center;
+    margin: 1.5rem;
 }
 .informacion {
     border-radius: 10px;
@@ -41,4 +42,53 @@
     margin: 10px;
     width: 4px;
     border-radius: 10px;
+}
+
+/* Estilos para la sección de comentarios */
+.comentarios {
+    max-width: 800px;
+    margin: 30px auto;
+    padding: 20px;
+    background-color: #f8f9fa;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.comentarios h2 {
+    color: #333;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.form-group {
+    margin-bottom: 15px;
+}
+
+.form-group label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+
+.form-group textarea {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    resize: vertical;
+    min-height: 100px;
+}
+
+.btn-enviar {
+    background-color: #007bff;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+.btn-enviar:hover {
+    background-color: #0056b3;
 }
