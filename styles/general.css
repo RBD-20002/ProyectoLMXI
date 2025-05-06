@@ -1,11 +1,17 @@
 /*GENERALES*/
 /* Estilos generales */
 html,body,footer,header {
-    font-family: 'Courier New', Courier, monospace;
     font-stretch: semi-condensed;
     line-height: 2;
     margin: 0;
     padding: 0;
+}
+
+body {
+    font-family: 'Lora', serif;
+}
+h1, h2, h3, strong {
+    font-family: 'Montserrat', sans-serif;
 }
 
 /*Configuracion imagen de Machu Picchu*/
