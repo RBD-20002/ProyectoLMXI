@@ -148,7 +148,7 @@ details {
 /*TUMBES*/
 .tumbes {
     /*fondo*/
-    background-image: url(/imagenes/Departamentos/tumbes.jpg);
+    background-image: url(imagenes/Departamentos/tumbes.jpg);
 }
 
 /*PIURA*/
@@ -364,5 +364,5 @@ details {
 
 /*UCAYALI*/
 .ucayali {
-    background-image: url(ProyectoLMXI\imagenes\Departamentos\ucayali.jpg/ucayali.jpg);
+    background-image: url(/imagenes/Departamentos/ucayali.jpg);
 }
