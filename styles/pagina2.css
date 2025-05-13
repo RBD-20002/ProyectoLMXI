@@ -110,6 +110,13 @@
     background-image: url(../imagenes/Departamentos/ucayali.jpg);
 }
 
+.Introduccion{
+background-color: #e01919;
+border: 6px solid #333;
+border-radius: 8px;
+padding: 0.5rem;
+}
+
 /* Estilos para el texto de introducción */
 .texto_introduccion {
     display: flex;
