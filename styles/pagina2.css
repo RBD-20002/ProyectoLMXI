@@ -81,7 +81,8 @@ details {
     background-color: antiquewhite;
     border-radius: 10px;
     border: 5px solid black;
-    padding: 0.5rem; /* Elimina padding interno */
+    padding: 0.5rem;
+    /* Elimina padding interno */
     position: relative;
 }
 
@@ -148,52 +149,52 @@ details {
 /*TUMBES*/
 .tumbes {
     /*fondo*/
-    background-image: url(imagenes/Departamentos/tumbes.jpg);
+    background-image: url(../imagenes/Departamentos/tumbes.jpg);
 }
 
 /*PIURA*/
 .piura {
-    background-image: url(/imagenes/Departamentos/piura.jpg);
+    background-image: url(../imagenes/Departamentos/piura.jpg);
 }
 
 /*LAMBAYEQUE*/
 .lambayeque {
-    background-image: url(/imagenes/Departamentos/lambayeque.jpg);
+    background-image: url(../imagenes/Departamentos/lambayeque.jpg);
 }
 
 /*LA LIBERTAD*/
 .la_libertad {
-    background-image: url(/imagenes/Departamentos/la_libertad.jpg);
+    background-image: url(../imagenes/Departamentos/la_libertad.jpg);
 }
 
 /*ANCASH*/
 .ancash {
-    background-image: url(/imagenes/Departamentos/ancash.jpg);
+    background-image: url(../imagenes/Departamentos/ancash.jpg);
 }
 
 /*LIMA*/
 .lima {
-    background-image: url(/imagenes/Departamentos/lima.jpg);
+    background-image: url(../imagenes/Departamentos/lima.jpg);
 }
 
 /*ICA*/
 .ica {
-    background-image: url(/imagenes/Departamentos/ica.jpg);
+    background-image: url(../imagenes/Departamentos/ica.jpg);
 }
 
 /*AREQUIPA*/
 .arequipa {
-    background-image: url(/imagenes/Departamentos/arequipa.jpg);
+    background-image: url(../imagenes/Departamentos/arequipa.jpg);
 }
 
 /*MOQUEGUA*/
 .moquegua {
-    background-image: url(/imagenes/Departamentos/moquegua.jpg);
+    background-image: url(../imagenes/Departamentos/moquegua.jpg);
 }
 
 /*TACNA*/
 .tacna {
-    background-image: url(/imagenes/Departamentos/tacna.jpg);
+    background-image: url(../imagenes/Departamentos/tacna.jpg);
 }
 
 /* |---------------------------------------------------------------------------------------------------------| */
@@ -248,48 +249,48 @@ details {
 
 /*APURIMAC*/
 .apurimac {
-    background-image: url(/imagenes/Departamentos/apurimac.jpg);
+    background-image: url(../imagenes/Departamentos/apurimac.jpg);
 }
 
 /*AYACUCHO*/
 .ayacucho {
-    background-image: url(/imagenes/Departamentos/ayacucho.jpg);
+    background-image: url(../imagenes/Departamentos/ayacucho.jpg);
 }
 
 /*CAJAMARCA*/
 .cajamarca {
-    background-image: url(/imagenes/Departamentos/cajamarca.jpg);
+    background-image: url(../imagenes/Departamentos/cajamarca.jpg);
 }
 
 /*CUZCO*/
 .cuzco {
-    background-image: url(/imagenes/Departamentos/cuzco.jpg);
+    background-image: url(../imagenes/Departamentos/cuzco.jpg);
 }
 
 /*HUANCAVELICA*/
 .huancavelica {
-    background-image: url(/imagenes/Departamentos/huancavelica.jpg);
+    background-image: url(../imagenes/Departamentos/huancavelica.jpg);
 }
 
 /*HUANUCO*/
 .huanuco {
-    background-image: url(/imagenes/Departamentos/huanuco.jpg);
+    background-image: url(../imagenes/Departamentos/huanuco.jpg);
 
 }
 
 /*JUNIN*/
 .junin {
-    background-image: url(/imagenes/Departamentos/junin.jpg);
+    background-image: url(../imagenes/Departamentos/junin.jpg);
 }
 
 /*PASCO*/
 .pasco {
-    background-image: url(/imagenes/Departamentos/pasco.jpg);
+    background-image: url(../imagenes/Departamentos/pasco.jpg);
 }
 
 /*PUNO*/
 .puno {
-    background-image: url(/imagenes/Departamentos/puno.jpg);
+    background-image: url(../imagenes/Departamentos/puno.jpg);
 }
 
 /* |---------------------------------------------------------------------------------------------------------| */
@@ -344,25 +345,25 @@ details {
 
 /*AMAZONAS*/
 .amazonas {
-    background-image: url(/imagenes/Departamentos/amazonas.jpg);
+    background-image: url(../imagenes/Departamentos/amazonas.jpg);
 }
 
 /*LORETO*/
 .loreto {
-    background-image: url(/imagenes/Departamentos/loreto.jpg);
+    background-image: url(../imagenes/Departamentos/loreto.jpg);
 }
 
 /*MADRE DE DIOS*/
 .madre_de_dios {
-    background-image: url(/imagenes/Departamentos/madre_de_dios.jpg);
+    background-image: url(../imagenes/Departamentos/madre_de_dios.jpg);
 }
 
 /*SAN MARTIN*/
 .san_martin {
-    background-image: url(/imagenes/Departamentos/san_martin.jpg);
+    background-image: url(../imagenes/Departamentos/san_martin.jpg);
 }
 
 /*UCAYALI*/
 .ucayali {
-    background-image: url(/imagenes/Departamentos/ucayali.jpg);
+    background-image: url(../imagenes/Departamentos/ucayali.jpg);
 }
