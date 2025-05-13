@@ -98,7 +98,6 @@ details {
 /* |---------------------------------------------------------------------------------------------------------| */
 /*PARTE COSTA*/
 .region_1 {
-    background-image: url(/imagenes/costa.jpg);
     background-size: contain;
     background: #e4c73469;
     background-repeat: no-repeat;
@@ -200,7 +199,6 @@ details {
 /* |---------------------------------------------------------------------------------------------------------| */
 /*PARTE SIERRA*/
 .region_2 {
-    background-image: url(/imagenes/costa.jpg);
     background-size: contain;
     background: rgba(81, 48, 1, 0.41);
     background-repeat: no-repeat;
@@ -297,7 +295,6 @@ details {
 /* |---------------------------------------------------------------------------------------------------------| */
 /*PARTE SELVA*/
 .region_3 {
-    background-image: url(/imagenes/costa.jpg);
     background-size: contain;
     background: rgba(19, 121, 12, 0.41);
     background-repeat: no-repeat;
@@ -367,5 +364,5 @@ details {
 
 /*UCAYALI*/
 .ucayali {
-    background-image: url(/imagenes/Departamentos/ucayali.jpg);
+    background-image: url(ProyectoLMXI\imagenes\Departamentos\ucayali.jpg/ucayali.jpg);
 }
