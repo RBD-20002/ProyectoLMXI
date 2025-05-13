@@ -2,10 +2,9 @@
 /*PAGINA 3*/
 .introduccion{
     background-color: #6e786077;
-    border: 6px solid #ff0000;
+    border: 6px solid rgb(255, 0, 0);
     border-radius: 10px;
-    padding: 1rem;
-    margin-block: 1.5rem;
+    padding: 0.5rem;
 }
 .tipos{
     text-align: center;
@@ -33,7 +32,6 @@ details {
     color: #ffffff;
     margin: 1rem;
 }
-
 summary{
     font-size: large;
 }
@@ -41,12 +39,11 @@ summary{
     font-size: large;
     color: #000000;
 }
-
 .cuadro_de_texto{
     font-size: large;
     border-radius: 8px;
     color: #ffffff;
-    padding: 0.3rem 1rem;
+    padding: 0.3rem;
     margin: 1rem;
     border-left: 4px solid rgb(255, 255, 255);
     background-color: rgba(0, 0, 0, 0.596);
@@ -55,7 +52,9 @@ summary{
     font-size: large;
     border-radius: 8px;
     color: #ffffff;
+    margin: 1rem;
     padding: 1rem;
+    background-color: #6d6b6b;
 }
 .info1{
     font-size: large;
@@ -88,14 +87,12 @@ summary{
     padding: 0.3rem 1rem;
     margin: 1rem;
 }
-
-img {
+.imagenes {
     display: block;
     margin: 1rem auto 1rem auto;
     width: 300px ;
     border-radius: 10px;
 }
-
 table {
     width: 90%;
     font-size: large;
@@ -106,7 +103,6 @@ th, td {
     font-size: large;
     border: 3px solid black;
     border-radius: 10px;
-    padding: 8px;
     text-align: center;
 }
 td{

@@ -111,10 +111,10 @@
 }
 
 .Introduccion{
-background-color: #e01919;
-border: 6px solid #333;
-border-radius: 8px;
-padding: 0.5rem;
+    background-color: #6e786077;
+    border: 6px solid rgb(255, 0, 0);
+    border-radius: 10px;
+    padding: 0.5rem;
 }
 
 /* Estilos para el texto de introducción */
