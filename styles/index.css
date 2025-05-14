@@ -1,36 +1,3 @@
-.opciones {
-    text-align: center;
-}
-.opcion {
-    background-color: #ff000000;
-    border: 1px solid #fb0000;
-    border-radius: 5px;
-    position: relative;
-}
-
-.etapas {
-    background-color: #6e786077;
-    border: 6px solid rgb(255, 0, 0);
-    border-radius: 10px;
-    padding: 0.5rem;
-}
-.titulo{
-    position: center;
-    background-color: black;
-    border:6px solid #ffff;
-    border-radius: 10px;
-    color:#ffff;
-    text-align: center;
-    margin: 0.5rem;
-}
-.informacion {
-    border-radius: 10px;
-    border-left: 8px solid  rgb(255, 255, 255);
-    color: white;
-    background-color: rgba(0, 0, 0, 0.596);
-    margin: 0.5rem;
-    padding: 0.5rem;
-}
 .imagenes{
     display: flex;
 }
@@ -49,12 +16,6 @@
     background-color: #f8f9fa;
     border-radius: 8px;
     border: 2px solid #000000;
-}
-
- h2 {
-    color: #000000;
-    margin-bottom: 10px;
-    text-align: center;
 }
 
 .bloque_contenido textarea {

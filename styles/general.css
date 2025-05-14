@@ -13,7 +13,7 @@ html, body, footer, header {
     position: relative;
     width: 100%;
     height: 60vh; /* Altura completa de pantalla */
-    overflow: hidden;
+    overflow: hidden; /*Para que se mantenga al tamaño de pestaña*/
 }
 
 /* Carrusel como fondo */
@@ -23,7 +23,6 @@ html, body, footer, header {
     height: 100%;
     top: 0;
     left: 0;
-    z-index: 0;
 }
 
 .carrusel-container {
@@ -98,13 +97,12 @@ html, body, footer, header {
     padding: 0.8rem 1.5rem;
     border-radius: 10px;
     transition: all 0.3s ease;
-    display: inline-block;
 }
 
 .header-contenido nav a:hover {
     background-color: rgba(255, 255, 255, 0.8);
     color: #333;
-    transform: scale(1.1);
+    transform: scale(1.5);
 }
 
 /* MAIN (se mantiene igual) */
@@ -138,4 +136,29 @@ footer p {
     margin: 1.5rem;
     text-align: center;
     position: relative;
+}
+.titulo{
+    position: center;
+    background-color: black;
+    border:6px solid #ffff;
+    border-radius: 10px;
+    color:#ffff;
+    text-align: center;
+    margin: 0.5rem;
+}
+
+.bloque_generico{
+    background-color: #6e786077;
+    border: 6px solid rgb(255, 0, 0);
+    border-radius: 10px;
+    padding: 0.5rem;
+    margin:0.5rem 0rem
+}
+.cuadro_de_texto{
+    border-radius: 8px;
+    color: #ffffff;
+    padding: 0.5rem;
+    margin: 1rem;
+    border-left: 6px solid rgb(255, 255, 255);
+    background-color: rgba(0, 0, 0, 0.596);
 }

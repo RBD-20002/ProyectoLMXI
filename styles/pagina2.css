@@ -1,110 +1,73 @@
-/* Estilos generales */
-.cuadro_de_texto {
-    color: #ffffff;
-    padding: 1rem;
-    margin: 1rem;
-    border-radius: 8px;
-    background-color: rgba(0, 0, 0, 0.7);
-    border-left: 6px solid #ffffff;
-    background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat;
-    text-shadow: 1px 1px 2px black;
-}
-
 /* Estilos para las imágenes de fondo de cada departamento */
 .tumbes {
     background-image: url(../imagenes/Departamentos/tumbes.jpg);
 }
-
 .piura {
     background-image: url(../imagenes/Departamentos/piura.jpg);
 }
-
 .lambayeque {
     background-image: url(../imagenes/Departamentos/lambayeque.jpg);
 }
-
 .la_libertad {
     background-image: url(../imagenes/Departamentos/la_libertad.jpg);
 }
-
 .ancash {
     background-image: url(../imagenes/Departamentos/ancash.jpg);
 }
-
 .lima {
     background-image: url(../imagenes/Departamentos/lima.jpg);
 }
-
 .ica {
     background-image: url(../imagenes/Departamentos/ica.jpg);
 }
-
 .arequipa {
     background-image: url(../imagenes/Departamentos/arequipa.jpg);
 }
-
 .moquegua {
     background-image: url(../imagenes/Departamentos/moquegua.jpg);
 }
-
 .tacna {
     background-image: url(../imagenes/Departamentos/tacna.jpg);
 }
-
 .apurimac {
     background-image: url(../imagenes/Departamentos/apurimac.jpg);
 }
-
 .ayacucho {
     background-image: url(../imagenes/Departamentos/ayacucho.jpg);
 }
-
 .cajamarca {
     background-image: url(../imagenes/Departamentos/cajamarca.jpg);
 }
-
 .cuzco {
     background-image: url(../imagenes/Departamentos/cuzco.jpg);
 }
-
 .huancavelica {
     background-image: url(../imagenes/Departamentos/huancavelica.jpg);
 }
-
 .huanuco {
     background-image: url(../imagenes/Departamentos/huanuco.jpg);
 }
-
 .junin {
     background-image: url(../imagenes/Departamentos/junin.jpg);
 }
-
 .pasco {
     background-image: url(../imagenes/Departamentos/pasco.jpg);
 }
-
 .puno {
     background-image: url(../imagenes/Departamentos/puno.jpg);
 }
-
 .amazonas {
     background-image: url(../imagenes/Departamentos/amazonas.jpg);
 }
-
 .loreto {
     background-image: url(../imagenes/Departamentos/loreto.jpg);
 }
-
 .madre_de_dios {
     background-image: url(../imagenes/Departamentos/madre_de_dios.jpg);
 }
-
 .san_martin {
     background-image: url(../imagenes/Departamentos/san_martin.jpg);
 }
-
 .ucayali {
     background-image: url(../imagenes/Departamentos/ucayali.jpg);
 }
@@ -216,22 +179,12 @@ details {
     border: 4px solid rgb(0, 0, 0);
     border-radius: 10px;
     color: #ffffff;
-    margin: 0.5rem;
+    margin: 1rem;
+    padding: 0.5rem;
 }
 
 summary {
     padding: 0.5rem;
     cursor: pointer;
     font-weight: bold;
-}
-
-/* Estilos para los títulos de departamento */
-.titulo {
-    background-color: black;
-    border-radius: 10px;
-    border: 6px solid #ffffff;
-    color: white;
-    padding: 0.5rem 1rem;
-    margin: 1rem;
-    text-align: center;
 }
