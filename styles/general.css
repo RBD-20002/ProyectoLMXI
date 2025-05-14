@@ -172,7 +172,7 @@ footer p {
 }
 
 /* Cuadro de texto estilizado */
-.cuadro_de_texto {
+.cuadro_de_texto_generico {
     border-radius: 8px;   /* Bordes redondeados */
     color: #ffffff;       /* Texto blanco */
     padding: 0.5rem;      /* Espaciado interno */
