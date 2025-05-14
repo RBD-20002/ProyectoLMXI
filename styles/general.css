@@ -1,164 +1,182 @@
-/* GENERALES */
+/* --------------------------- ESTILOS GENERALES --------------------------- */
+/* Estilos base para elementos principales de la página */
 html, body, footer, header {
-    font-stretch: semi-condensed;
-    line-height: 2;
-    margin: 0;
-    padding: 0;
-    font-size: x-large;
-    font-family: 'Montserrat', sans-serif;
+    font-stretch: semi-condensed;  /* Texto semi-condensado */
+    line-height: 2;                /* Espaciado entre líneas */
+    margin: 0;                     /* Elimina márgenes por defecto */
+    padding: 0;                    /* Elimina padding por defecto */
+    font-size: x-large;            /* Tamaño de fuente grande */
+    font-family: 'Montserrat', sans-serif;  /* Fuente principal */
 }
 
-/* HEADER CON CARRUSEL */
+/* --------------------------- HEADER CON CARRUSEL --------------------------- */
+/* Contenedor principal del header con efecto de carrusel */
 .header-con-carrusel {
-    position: relative;
-    width: 100%;
-    height: 60vh; /* Altura completa de pantalla */
-    overflow: hidden; /*Para que se mantenga al tamaño de pestaña*/
+    position: relative;      /* Posicionamiento relativo */
+    width: 100%;            /* Ancho completo */
+    height: 60vh;           /* Altura del 60% del viewport */
+    overflow: hidden;       /* Oculta contenido que sobresalga */
 }
 
-/* Carrusel como fondo */
+/* Carrusel que sirve como fondo */
 .carrusel-fondo {
-    position: absolute;
-    width: 100%;
-    height: 100%;
-    top: 0;
-    left: 0;
+    position: absolute;     /* Posicionamiento absoluto */
+    width: 100%;           /* Ancho completo */
+    height: 100%;          /* Altura completa */
+    top: 0;                /* Alineado arriba */
+    left: 0;               /* Alineado a la izquierda */
 }
 
+/* Contenedor de imágenes del carrusel */
 .carrusel-container {
-    display: flex;
-    height: 100%;
-    width: fit-content;
-    animation: desplazamiento 100s linear infinite;
-    gap: 15px;
-    background-color: #333;
+    display: flex;          /* Diseño flexible */
+    height: 100%;          /* Altura completa */
+    width: fit-content;    /* Ancho según contenido */
+    animation: desplazamiento 100s linear infinite;  /* Animación continua */
+    gap: 15px;             /* Espacio entre imágenes */
+    background-color: #333; /* Color de fondo */
 }
 
+/* Estilo para imágenes del carrusel */
 .carrusel-container img {
-    height: auto;
-    padding: 0.5rem;
-    border-radius: 2rem;
-    width: auto; /* Una imagen a la vez */
-    object-fit: cover;
-    object-position: center;
-    filter: brightness(0.7); /* Oscurecer imágenes para mejor contraste */
+    height: auto;          /* Altura automática */
+    padding: 0.5rem;       /* Espaciado interno */
+    border-radius: 2rem;   /* Bordes muy redondeados */
+    width: auto;           /* Ancho automático */
+    object-fit: cover;     /* Ajuste de imagen */
+    object-position: center; /* Centrado de imagen */
+    filter: brightness(0.7); /* Imágenes ligeramente oscuras */
 }
 
-/* Animación del carrusel */
+/* Animación de desplazamiento horizontal */
 @keyframes desplazamiento {
-    0% { transform: translateX(0); }
-    100% { transform: translateX(calc(-100% + 100vw)); }
+    0% { transform: translateX(0); }  /* Posición inicial */
+    100% { transform: translateX(calc(-100% + 100vw)); }  /* Posición final */
 }
 
-/* CONTENIDO SOBREPUESTO */
+/* --------------------------- CONTENIDO SOBREPUESTO --------------------------- */
+/* Contenido que aparece sobre el carrusel */
 .header-contenido {
-    position: relative;
-    z-index: 1;
-    height: 100%;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    text-align: center;
-    padding: 2rem;
+    position: relative;    /* Posicionamiento relativo */
+    z-index: 1;           /* Capa superior al carrusel */
+    height: 100%;         /* Altura completa */
+    display: flex;        /* Diseño flexible */
+    flex-direction: column; /* Disposición vertical */
+    justify-content: center; /* Centrado vertical */
+    align-items: center;   /* Centrado horizontal */
+    text-align: center;    /* Texto centrado */
+    padding: 2rem;        /* Espaciado interno */
 }
 
+/* Título principal del header */
 .header-contenido h1 {
-    background-color: rgba(216, 20, 39, 0.7);
-    color: rgb(255, 255, 255);
-    text-shadow: 2px 2px 4px rgb(15, 15, 15);
-    border: 2px solid #ffff;
-    border-radius: 10px;
-    font-size: 2.5rem;
-    padding: 1rem 2rem;
-    margin-bottom: 2rem;
+    background-color: rgba(216, 20, 39, 0.7); /* Fondo rojo semitransparente */
+    color: rgb(255, 255, 255);  /* Texto blanco */
+    text-shadow: 2px 2px 4px rgb(15, 15, 15); /* Sombra de texto */
+    border: 2px solid #ffff;    /* Borde blanco */
+    border-radius: 10px;        /* Bordes redondeados */
+    font-size: 2.5rem;         /* Tamaño de fuente */
+    padding: 1rem 2rem;        /* Espaciado interno */
+    margin-bottom: 2rem;       /* Margen inferior */
 }
 
+/* Menú de navegación */
 .header-contenido nav ul {
-    padding: 0;
-    margin: 0;
-    display: flex;
-    gap: 1.5rem;
-    flex-wrap: wrap;
-    justify-content: center;
+    padding: 0;            /* Sin espaciado interno */
+    margin: 0;             /* Sin margen */
+    display: flex;         /* Diseño flexible */
+    gap: 1.5rem;          /* Espacio entre elementos */
+    flex-wrap: wrap;       /* Permite saltos de línea */
+    justify-content: center; /* Centrado horizontal */
 }
 
+/* Elementos del menú */
 .header-contenido nav ul li {
-    display: inline-block;
+    display: inline-block; /* Elementos en línea */
 }
 
+/* Enlaces del menú */
 .header-contenido nav a {
-    background-color: rgba(216, 20, 39, 0.7);
-    text-shadow: 2px 2px 4px rgb(15, 15, 15);
-    border: 2px solid #faf7f7;
-    font-size: 1.5rem;
-    color: #fffbfb;
-    text-decoration: none;
-    padding: 0.8rem 1.5rem;
-    border-radius: 10px;
-    transition: all 0.3s ease;
+    background-color: rgba(216, 20, 39, 0.7); /* Fondo rojo semitransparente */
+    text-shadow: 2px 2px 4px rgb(15, 15, 15); /* Sombra de texto */
+    border: 2px solid #faf7f7;  /* Borde blanco */
+    font-size: 1.5rem;         /* Tamaño de fuente */
+    color: #fffbfb;            /* Texto blanco */
+    text-decoration: none;     /* Sin subrayado */
+    padding: 0.8rem 1.5rem;    /* Espaciado interno */
+    border-radius: 10px;       /* Bordes redondeados */
+    transition: all 0.3s ease; /* Transición suave */
 }
 
+/* Efecto hover para enlaces */
 .header-contenido nav a:hover {
-    background-color: rgba(255, 255, 255, 0.8);
-    color: #333;
-    transform: scale(1.5);
+    background-color: rgba(255, 255, 255, 0.8); /* Fondo blanco semitransparente */
+    color: #333;              /* Texto oscuro */
+    transform: scale(1.5);    /* Efecto de escala */
 }
 
-/* MAIN (se mantiene igual) */
+/* --------------------------- CONTENIDO PRINCIPAL --------------------------- */
 main {
-    padding: 0.5rem;
-    max-width: 1000px;
-    margin: auto;
+    padding: 0.5rem;      /* Espaciado interno */
+    max-width: 1000px;    /* Ancho máximo */
+    margin: auto;         /* Centrado horizontal */
 }
 
-/* FOOTER (se mantiene igual) */
+/* --------------------------- FOOTER --------------------------- */
 footer {
-    background-image: url('../imagenes/Footer2.jpg');
-    position: relative;
-    color: rgb(255, 255, 255);
-    font-size: xx-large;
-    min-height: 100px;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
+    background-image: url('../imagenes/Footer2.jpg'); /* Imagen de fondo */
+    position: relative;   /* Posicionamiento relativo */
+    color: rgb(255, 255, 255); /* Texto blanco */
+    font-size: xx-large;  /* Tamaño de fuente muy grande */
+    min-height: 100px;    /* Altura mínima */
+    display: flex;        /* Diseño flexible */
+    flex-direction: column; /* Disposición vertical */
+    align-items: center;  /* Centrado horizontal */
 }
 
+/* Elemento decorativo del footer */
 .letras-footer {
-    position: absolute;
-    width: 60px;
-    height: auto;
-    right: 20px;
-    bottom: 20px;
+    position: absolute;   /* Posicionamiento absoluto */
+    width: 60px;          /* Ancho fijo */
+    height: auto;         /* Altura automática */
+    right: 20px;          /* Distancia desde la derecha */
+    bottom: 20px;         /* Distancia desde abajo */
 }
 
+/* Párrafo del footer */
 footer p {
-    margin: 1.5rem;
-    text-align: center;
-    position: relative;
-}
-.titulo{
-    position: center;
-    background-color: black;
-    border:6px solid #ffff;
-    border-radius: 10px;
-    color:#ffff;
-    text-align: center;
-    margin: 0.5rem;
+    margin: 1.5rem;       /* Margen exterior */
+    text-align: center;   /* Texto centrado */
+    position: relative;   /* Posicionamiento relativo */
 }
 
-.bloque_generico{
-    background-color: #6e786077;
-    border: 6px solid rgb(255, 0, 0);
-    border-radius: 10px;
-    padding: 0.5rem;
-    margin:0.5rem 0rem
+/* --------------------------- ELEMENTOS REUTILIZABLES --------------------------- */
+/* Estilo para títulos */
+.titulo {
+    position: center;     /* Posición centrada */
+    background-color: black; /* Fondo negro */
+    border: 6px solid #ffff; /* Borde blanco */
+    border-radius: 10px;  /* Bordes redondeados */
+    color: #ffff;         /* Texto blanco */
+    text-align: center;   /* Texto centrado */
+    margin: 0.5rem;       /* Margen exterior */
 }
-.cuadro_de_texto{
-    border-radius: 8px;
-    color: #ffffff;
-    padding: 0.5rem;
-    margin: 1rem;
-    border-left: 6px solid rgb(255, 255, 255);
-    background-color: rgba(0, 0, 0, 0.596);
+
+/* Bloque genérico de contenido */
+.bloque_generico {
+    background-color: #6e786077; /* Fondo gris semitransparente */
+    border: 6px solid rgb(255, 0, 0); /* Borde rojo */
+    border-radius: 10px;  /* Bordes redondeados */
+    padding: 0.5rem;      /* Espaciado interno */
+    margin: 0.5rem 0rem;  /* Margen exterior */
+}
+
+/* Cuadro de texto estilizado */
+.cuadro_de_texto {
+    border-radius: 8px;   /* Bordes redondeados */
+    color: #ffffff;       /* Texto blanco */
+    padding: 0.5rem;      /* Espaciado interno */
+    margin: 1rem;         /* Margen exterior */
+    border-left: 6px solid rgb(255, 255, 255); /* Borde izquierdo blanco */
+    background-color: rgba(0, 0, 0, 0.596); /* Fondo negro semitransparente */
 }

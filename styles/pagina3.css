@@ -1,67 +1,93 @@
-/* |-------------------------------------------------------------------------------------------------| */
-/*PAGINA 3*/
-.personajes_historicos{
-    border: 6px solid #ffffff;
-    border-radius: 10px;
-    color: #ffff;
-    padding: 0rem 0.5rem;
-    margin: 1rem;
+/* --------------------------- PÁGINA 3 - ESTILOS GENERALES --------------------------- */
+/* Contenedor principal para sección de personajes históricos */
+.personajes_historicos {
+    border: 6px solid #ffffff;          /* Marco blanco de 6px */
+    border-radius: 10px;                /* Bordes redondeados */
+    color: #ffff;                       /* Color de texto blanco */
+    padding: 0rem 0.5rem;               /* Espaciado interno horizontal */
+    margin: 1rem;                       /* Margen exterior */
 }
+
+/* --------------------------- ELEMENTOS DESPLEGABLES --------------------------- */
+/* Estilo para acordeones o secciones colapsables */
 details {
-    background: #0e0c009e;
-    border-left: 6px solid rgb(255, 255, 255);
-    border-radius: 10px;
-    color: #ffffff;
-    margin: 1rem;
-    padding: 0.5rem;
+    background: #0e0c009e;              /* Fondo oscuro semitransparente */
+    border-left: 6px solid rgb(255, 255, 255);  /* Borde izquierdo blanco */
+    border-radius: 10px;                /* Bordes redondeados */
+    color: #ffffff;                     /* Texto blanco */
+    margin: 1rem;                       /* Margen exterior */
+    padding: 0.5rem;                    /* Espaciado interno */
 }
-.info{
-    border-radius: 8px;
-    color: #ffffff;
-    margin: 1rem 0rem;
-    padding: 1rem;
-    background-color: #6d6b6b;
+
+/* --------------------------- CONTENEDORES DE INFORMACIÓN --------------------------- */
+/* Caja de información principal */
+.info {
+    border-radius: 8px;                 /* Bordes redondeados */
+    color: #ffffff;                     /* Texto blanco */
+    margin: 1rem 0rem;                  /* Margen superior/inferior */
+    padding: 1rem;                      /* Espaciado interno */
+    background-color: #6d6b6b;          /* Fondo gris */
 }
-.info1{
-    background-color: #6d6b6b;
-    border-left:6px solid #ffffff;
-    border-radius: 10px;
-    padding: 0.5rem;
-    margin: 0.5rem;
+
+/* Variante alternativa de caja de información */
+.info1 {
+    background-color: #6d6b6b;          /* Fondo gris */
+    border-left: 6px solid #ffffff;     /* Borde izquierdo blanco */
+    border-radius: 10px;                /* Bordes redondeados */
+    padding: 0.5rem;                    /* Espaciado interno */
+    margin: 0.5rem;                     /* Margen exterior */
 }
+
+/* --------------------------- TÍTULOS Y ENCABEZADOS --------------------------- */
+/* Estilo para títulos de personajes */
 .titulo_personaje {
-    background-color: #000000;
-    border: 6px solid #ffffff;
-    border-radius: 10px;
-    color: #ffffff;
-    text-align: center;
+    background-color: #000000;          /* Fondo negro */
+    border: 6px solid #ffffff;          /* Borde blanco */
+    border-radius: 10px;                /* Bordes redondeados */
+    color: #ffffff;                     /* Texto blanco */
+    text-align: center;                 /* Centrado de texto */
 }
-.info_cuadro{
-    background-color: #ccc8c8b0;
-    border-radius: 10px;
-    border:6px solid #ffffff;
-    padding: 0.3rem 1rem;
-    margin: 1rem;
+
+/* --------------------------- CUADROS DE INFORMACIÓN --------------------------- */
+/* Contenedor para información secundaria */
+.info_cuadro {
+    background-color: #ccc8c8b0;        /* Fondo gris semitransparente */
+    border-radius: 10px;                /* Bordes redondeados */
+    border: 6px solid #ffffff;          /* Borde blanco */
+    padding: 0.3rem 1rem;               /* Espaciado interno */
+    margin: 1rem;                       /* Margen exterior */
 }
+
+/* --------------------------- ELEMENTOS MULTIMEDIA --------------------------- */
+/* Estilo para imágenes de contenido */
 .imagenes {
-    display: block;
-    margin: 1rem auto 1rem auto;
-    width: 300px ;
-    border-radius: 10px;
+    display: block;                     /* Comportamiento en bloque */
+    margin: 1rem auto 1rem auto;       /* Centrado horizontal con margen */
+    width: 300px;                       /* Ancho fijo */
+    border-radius: 10px;                /* Bordes redondeados */
 }
+
+/* --------------------------- TABLAS DE DATOS --------------------------- */
+/* Estructura base para tablas */
 table {
-    width: 90%;
-    border-collapse: separate;
-    margin: 5px auto;
+    width: 90%;                        /* Ancho relativo */
+    border-collapse: separate;          /* Modelo de bordes separados */
+    margin: 5px auto;                  /* Centrado con margen */
 }
+
+/* Celdas de tabla (comunes y de encabezado) */
 th, td {
-    border: 3px solid black;
-    border-radius: 10px;
-    text-align: center;
+    border: 3px solid black;            /* Borde negro */
+    border-radius: 10px;                /* Bordes redondeados */
+    text-align: center;                 /* Centrado de contenido */
 }
-td{
-    background-color: #6d6b6b;
+
+/* Celdas de datos normales */
+td {
+    background-color: #6d6b6b;          /* Fondo gris */
 }
+
+/* Celdas de encabezado */
 th {
-    background-color: #c31313;
+    background-color: #c31313;          /* Fondo rojo oscuro */
 }

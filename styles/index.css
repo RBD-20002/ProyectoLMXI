@@ -1,37 +1,46 @@
-.imagenes{
-    display: flex;
-}
-.imagen{
-    flex: 1;
-    margin: 10px;
-    width: 4px;
-    border-radius: 10px;
+/* --------------------------- CONTENEDOR DE IMÁGENES FLEXIBLE --------------------------- */
+/* Contenedor flexible para imágenes */
+.imagenes {
+    display: flex;          /* Activa el modelo de caja flexible */
 }
 
-/* Estilos para la sección de comentarios */
+/* Estilos para cada imagen individual dentro del contenedor */
+.imagen {
+    flex: 1;               /* Las imágenes ocupan igual espacio disponible */
+    margin: 10px;          /* Margen alrededor de cada imagen */
+    width: 4px;            /* Ancho base (¿es correcto este valor?) */
+    border-radius: 10px;    /* Bordes redondeados */
+}
+
+/* --------------------------- SECCIÓN DE COMENTARIOS --------------------------- */
+/* Contenedor principal de comentarios */
 .comentarios {
-    max-width: 800px;
-    margin: 30px auto;
-    padding: 20px;
-    background-color: #f8f9fa;
-    border-radius: 8px;
-    border: 2px solid #000000;
+    max-width: 800px;      /* Ancho máximo del contenedor */
+    margin: 30px auto;     /* Margen superior/inferior y centrado horizontal */
+    padding: 20px;         /* Espaciado interno */
+    background-color: #f8f9fa;  /* Color de fondo claro */
+    border-radius: 8px;    /* Bordes redondeados */
+    border: 2px solid #000000;  /* Borde negro */
 }
 
+/* --------------------------- ÁREA DE TEXTO PARA COMENTARIOS --------------------------- */
+/* Campo de texto para escribir comentarios */
 .bloque_contenido textarea {
-    width: 770px;
-    padding: 10px;
-    border: 1px solid #000000;
-    border-radius: 4px;
-    resize: vertical;
-    min-height: 100px;
+    width: 770px;          /* Ancho casi completo del contenedor padre */
+    padding: 10px;         /* Espaciado interno */
+    border: 1px solid #000000;  /* Borde negro delgado */
+    border-radius: 4px;    /* Bordes ligeramente redondeados */
+    resize: vertical;      /* Permite redimensionar solo verticalmente */
+    min-height: 100px;     /* Altura mínima inicial */
 }
 
+/* --------------------------- BOTÓN DE ENVÍO --------------------------- */
+/* Estilo del botón para enviar comentarios */
 .boton-enviar {
-    background-color: #007bff;
-    color: white;
-    border: none;
-    padding: 10px 20px;
-    border-radius: 4px;
-    cursor: pointer;
+    background-color: #007bff;  /* Fondo azul */
+    color: white;           /* Texto blanco */
+    border: none;           /* Sin borde */
+    padding: 10px 20px;     /* Espaciado interno */
+    border-radius: 4px;     /* Bordes ligeramente redondeados */
+    cursor: pointer;        /* Cambia el cursor al pasar el mouse */
 }

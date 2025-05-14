@@ -1,190 +1,182 @@
-/* Estilos para las imágenes de fondo de cada departamento */
-.tumbes {
-    background-image: url(../imagenes/Departamentos/tumbes.jpg);
-}
-.piura {
-    background-image: url(../imagenes/Departamentos/piura.jpg);
-}
-.lambayeque {
-    background-image: url(../imagenes/Departamentos/lambayeque.jpg);
-}
-.la_libertad {
-    background-image: url(../imagenes/Departamentos/la_libertad.jpg);
-}
-.ancash {
-    background-image: url(../imagenes/Departamentos/ancash.jpg);
-}
-.lima {
-    background-image: url(../imagenes/Departamentos/lima.jpg);
-}
-.ica {
-    background-image: url(../imagenes/Departamentos/ica.jpg);
-}
-.arequipa {
-    background-image: url(../imagenes/Departamentos/arequipa.jpg);
-}
-.moquegua {
-    background-image: url(../imagenes/Departamentos/moquegua.jpg);
-}
-.tacna {
-    background-image: url(../imagenes/Departamentos/tacna.jpg);
-}
-.apurimac {
-    background-image: url(../imagenes/Departamentos/apurimac.jpg);
-}
-.ayacucho {
-    background-image: url(../imagenes/Departamentos/ayacucho.jpg);
-}
-.cajamarca {
-    background-image: url(../imagenes/Departamentos/cajamarca.jpg);
-}
-.cuzco {
-    background-image: url(../imagenes/Departamentos/cuzco.jpg);
-}
-.huancavelica {
-    background-image: url(../imagenes/Departamentos/huancavelica.jpg);
-}
-.huanuco {
-    background-image: url(../imagenes/Departamentos/huanuco.jpg);
-}
-.junin {
-    background-image: url(../imagenes/Departamentos/junin.jpg);
-}
-.pasco {
-    background-image: url(../imagenes/Departamentos/pasco.jpg);
-}
-.puno {
-    background-image: url(../imagenes/Departamentos/puno.jpg);
-}
-.amazonas {
-    background-image: url(../imagenes/Departamentos/amazonas.jpg);
-}
-.loreto {
-    background-image: url(../imagenes/Departamentos/loreto.jpg);
-}
-.madre_de_dios {
-    background-image: url(../imagenes/Departamentos/madre_de_dios.jpg);
-}
-.san_martin {
-    background-image: url(../imagenes/Departamentos/san_martin.jpg);
-}
-.ucayali {
-    background-image: url(../imagenes/Departamentos/ucayali.jpg);
+/* --------------------------- SECCIÓN DE INTRODUCCIÓN --------------------------- */
+/* Contenedor principal de introducción */
+.Introduccion {
+    background-color: #6e786077; /* Fondo gris verdoso semitransparente */
+    border: 6px solid rgb(255, 0, 0); /* Borde rojo sólido */
+    border-radius: 10px; /* Bordes redondeados */
+    padding: 0.5rem; /* Espaciado interno */
 }
 
-.Introduccion{
-    background-color: #6e786077;
-    border: 6px solid rgb(255, 0, 0);
-    border-radius: 10px;
-    padding: 0.5rem;
-}
-
-/* Estilos para el texto de introducción */
+/* Contenedor flexible para el texto e imagen de introducción */
 .texto_introduccion {
-    display: flex;
-    align-items: center;
-    gap: 1rem;
-    padding: 1rem;
-    margin: 1rem;
-    background-color: rgba(0, 0, 0, 0.2);
-    border-radius: 8px;
+    display: flex; /* Diseño flexible */
+    align-items: center; /* Alineación vertical al centro */
+    gap: 1rem; /* Espacio entre elementos */
+    padding: 1rem; /* Espaciado interno */
+    margin: 1rem; /* Margen externo */
+    background-color: rgba(0, 0, 0, 0.2); /* Fondo negro semitransparente */
+    border-radius: 8px; /* Bordes redondeados */
 }
 
+/* Estilo para la imagen dentro del texto introductorio */
 .texto_introduccion .imagen {
-    width: 270px;
-    height: auto;
-    border-radius: 8px;
-    border: 3px solid #000;
-    margin-left: auto;
+    width: 270px; /* Ancho fijo */
+    height: auto; /* Altura automática */
+    border-radius: 8px; /* Bordes redondeados */
+    border: 3px solid #000; /* Borde negro */
+    margin-left: auto; /* Alineación a la derecha */
 }
 
-/* Estilos para la tabla de regiones */
+/* --------------------------- TABLA DE REGIONES --------------------------- */
+/* Estilo principal de la tabla */
 .tabla-regiones {
-    width: 90%;
-    border-collapse: separate;
-    margin: 5px auto;
+    width: 90%; /* Ancho del 90% del contenedor */
+    border-collapse: separate; /* Bordes separados */
+    margin: 5px auto; /* Centrado con margen */
 }
 
-.tabla-regiones th, .tabla-regiones td {
-    background-color: #ffd500;
-    border-radius: 10px;
-    border: 5px solid black;
-    color: #333;
-    text-align: center;
-    padding: 0.5rem;
+/* Estilo para celdas (th y td) de la tabla */
+.tabla-regiones th, 
+.tabla-regiones td {
+    background-color: #ffd500; /* Fondo amarillo */
+    border-radius: 10px; /* Bordes redondeados */
+    border: 5px solid black; /* Borde negro grueso */
+    color: #333; /* Color de texto oscuro */
+    text-align: center; /* Texto centrado */
+    padding: 0.5rem; /* Espaciado interno */
 }
 
+/* Estilo para imágenes dentro de la tabla */
 .imagen-region {
-    height: 300px;
-    object-fit: cover;
-    display: block;
-    margin: 0 auto;
-    border: 2px solid #000000;
-    border-radius: 10px;
+    height: 300px; /* Altura fija */
+    object-fit: cover; /* Ajuste de imagen */
+    display: block; /* Mostrar como bloque */
+    margin: 0 auto; /* Centrado horizontal */
+    border: 2px solid #000000; /* Borde negro */
+    border-radius: 10px; /* Bordes redondeados */
 }
 
-/* Estilos para las regiones */
+/* --------------------------- ESTILOS POR REGIÓN --------------------------- */
+/* Región Costa */
 .region_1 {
-    background: #e4c73469;
-    border: 6px solid #e4c734;
-    border-radius: 10px;
-    margin-block: 1.5rem;
-    padding: 1rem;
+    background: #e4c73469; /* Fondo amarillo semitransparente */
+    border: 6px solid #e4c734; /* Borde amarillo */
+    border-radius: 10px; /* Bordes redondeados */
+    margin-block: 1.5rem; /* Margen vertical */
+    padding: 1rem; /* Espaciado interno */
 }
 
+/* Región Sierra */
 .region_2 {
-    background: rgba(81, 48, 1, 0.41);
-    border: 6px solid rgb(81, 48, 1);
-    border-radius: 10px;
-    margin-block: 1.5rem;
-    padding: 1rem;
+    background: rgba(81, 48, 1, 0.41); /* Fondo marrón semitransparente */
+    border: 6px solid rgb(81, 48, 1); /* Borde marrón */
+    border-radius: 10px; /* Bordes redondeados */
+    margin-block: 1.5rem; /* Margen vertical */
+    padding: 1rem; /* Espaciado interno */
 }
 
+/* Región Selva */
 .region_3 {
-    background: rgba(19, 121, 12, 0.41);
-    border: 6px solid rgb(61, 130, 15);
-    border-radius: 10px;
-    margin-block: 1.5rem;
-    padding: 1rem;
+    background: rgba(19, 121, 12, 0.41); /* Fondo verde semitransparente */
+    border: 6px solid rgb(61, 130, 15); /* Borde verde */
+    border-radius: 10px; /* Bordes redondeados */
+    margin-block: 1.5rem; /* Margen vertical */
+    padding: 1rem; /* Espaciado interno */
 }
 
-/* Títulos de regiones */
-.titulo_costa, .titulo_sierra, .titulo_selva {
-    background-color: black;
-    color: #ffffff;
-    padding: 0.5rem 1rem;
-    border-radius: 10px;
-    margin-bottom: 1rem;
-}
-
-.titulo_costa {
-    border: 6px solid #e4c734;
-}
-
-.titulo_sierra {
-    border: 6px solid rgb(81, 48, 1);
-}
-
+/* --------------------------- TÍTULOS DE REGIONES --------------------------- */
+/* Estilo base para títulos de regiones */
+.titulo_costa, 
+.titulo_sierra, 
 .titulo_selva {
-    border: 6px solid rgb(61, 130, 15);
+    background-color: black; /* Fondo negro */
+    color: #ffffff; /* Texto blanco */
+    padding: 0.5rem 1rem; /* Espaciado interno */
+    border-radius: 10px; /* Bordes redondeados */
+    margin-bottom: 1rem; /* Margen inferior */
 }
 
-/* Estilos para los detalles desplegables */
+/* Título específico para Costa */
+.titulo_costa {
+    border: 6px solid #e4c734; /* Borde amarillo */
+}
+
+/* Título específico para Sierra */
+.titulo_sierra {
+    border: 6px solid rgb(81, 48, 1); /* Borde marrón */
+}
+
+/* Título específico para Selva */
+.titulo_selva {
+    border: 6px solid rgb(61, 130, 15); /* Borde verde */
+}
+
+/* --------------------------- ELEMENTOS DESPLEGABLES ---------------------------*/
+/* Contenedor de elementos desplegables */
 .desplegable {
-    margin-top: 1rem;
+    margin-top: 1rem; /* Margen superior */
 }
 
+/* Estilo base para detalles desplegables */
 details {
-    background-color: #000000ad;
-    border: 4px solid rgb(0, 0, 0);
-    border-radius: 10px;
-    color: #ffffff;
-    margin: 1rem;
-    padding: 0.5rem;
+    background-color: #000000ad; /* Fondo negro semitransparente */
+    border: 4px solid rgb(0, 0, 0); /* Borde negro */
+    border-radius: 10px; /* Bordes redondeados */
+    color: #ffffff; /* Texto blanco */
+    margin: 1rem; /* Margen externo */
+    padding: 0.5rem; /* Espaciado interno */
 }
 
+/* Estilo para el resumen/encabezado del desplegable */
 summary {
-    padding: 0.5rem;
-    cursor: pointer;
-    font-weight: bold;
+    padding: 0.5rem; /* Espaciado interno */
+    cursor: pointer; /* Cursor tipo puntero */
+    font-weight: bold; /* Texto en negrita */
 }
+
+/* Estilos para las imágenes de fondo de cada departamento */
+.tumbes { background-image: url(../imagenes/Departamentos/tumbes.jpg);}
+
+.piura { background-image: url(../imagenes/Departamentos/piura.jpg);}
+
+.lambayeque { background-image: url(../imagenes/Departamentos/lambayeque.jpg);}
+
+.la_libertad { background-image: url(../imagenes/Departamentos/la_libertad.jpg);}
+
+.ancash { background-image: url(../imagenes/Departamentos/ancash.jpg);}
+
+.lima { background-image: url(../imagenes/Departamentos/lima.jpg);}
+
+.ica { background-image: url(../imagenes/Departamentos/ica.jpg);}
+
+.arequipa { background-image: url(../imagenes/Departamentos/arequipa.jpg);}
+
+.moquegua { background-image: url(../imagenes/Departamentos/moquegua.jpg);}
+
+.tacna { background-image: url(../imagenes/Departamentos/tacna.jpg);}
+
+.apurimac { background-image: url(../imagenes/Departamentos/apurimac.jpg);}
+
+.ayacucho { background-image: url(../imagenes/Departamentos/ayacucho.jpg);}
+
+.cajamarca { background-image: url(../imagenes/Departamentos/cajamarca.jpg);}
+
+.huancavelica { background-image: url(../imagenes/Departamentos/huancavelica.jpg);}
+
+.huanuco { background-image: url(../imagenes/Departamentos/huanuco.jpg);}
+
+.junin { background-image: url(../imagenes/Departamentos/junin.jpg);}
+
+.pasco { background-image: url(../imagenes/Departamentos/pasco.jpg);}
+
+.puno { background-image: url(../imagenes/Departamentos/puno.jpg);}
+
+.amazonas { background-image: url(../imagenes/Departamentos/amazonas.jpg);}
+
+.loreto { background-image: url(../imagenes/Departamentos/loreto.jpg);}
+
+.madre_de_dios { background-image: url(../imagenes/Departamentos/madre_de_dios.jpg);}
+
+.san_martin { background-image: url(../imagenes/Departamentos/san_martin.jpg);}
+
+.ucayali { background-image: url(../imagenes/Departamentos/ucayali.jpg);}
