@@ -3,7 +3,6 @@
     color: #ffffff;
     padding: 1rem;
     margin: 1rem;
-    font-size: large;
     border-radius: 8px;
     background-color: rgba(0, 0, 0, 0.7);
     border-left: 6px solid #ffffff;
@@ -121,7 +120,6 @@
 .texto_introduccion {
     display: flex;
     align-items: center;
-    font-size: large;
     gap: 1rem;
     padding: 1rem;
     margin: 1rem;
@@ -149,7 +147,6 @@
     border-radius: 10px;
     border: 5px solid black;
     color: #333;
-    font-size: x-large;
     text-align: center;
     padding: 0.5rem;
 }

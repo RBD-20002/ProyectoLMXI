@@ -8,7 +8,6 @@
 }
 .tipos{
     text-align: center;
-    font-size: large;
     background-color: rgb(0, 0, 0);
     color: #ffffff;
     border-radius: 10px;
@@ -32,15 +31,8 @@ details {
     color: #ffffff;
     margin: 1rem;
 }
-summary{
-    font-size: large;
-}
-.interior{
-    font-size: large;
-    color: #000000;
-}
+
 .cuadro_de_texto{
-    font-size: large;
     border-radius: 8px;
     color: #ffffff;
     padding: 0.3rem;
@@ -49,7 +41,6 @@ summary{
     background-color: rgba(0, 0, 0, 0.596);
 }
 .info{
-    font-size: large;
     border-radius: 8px;
     color: #ffffff;
     margin: 1rem;
@@ -57,7 +48,6 @@ summary{
     background-color: #6d6b6b;
 }
 .info1{
-    font-size: large;
     background-color: #6d6b6b;
     border-left:6px solid #ffffff;
     border-radius: 10px;
@@ -95,12 +85,10 @@ summary{
 }
 table {
     width: 90%;
-    font-size: large;
     border-collapse: separate;
     margin: 5px auto;
 }
 th, td {
-    font-size: large;
     border: 3px solid black;
     border-radius: 10px;
     text-align: center;
